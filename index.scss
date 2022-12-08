@@ -1,0 +1,63 @@
+$color: #000000;
+$background-color1: azure;
+$background-color2: aqua;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    margin: 0;
+}
+#navbar {
+    background-color: $background-color2;
+    padding: 5px;
+}
+#logo {
+    margin-left: 15px;
+}
+#navbar > div > a {
+    text-decoration: none;
+    color: #000000;
+}
+#hero {
+    background-color: $background-color1;
+    padding: 40px;
+}
+.about-me {
+    padding: 3rem;
+}
+#skills {
+    background-color: $background-color1;
+}
+.skills {
+    background-color: $background-color2;
+    box-shadow: 8px 8px 8px rgba($color: #000000, $alpha: 0.5) !important;
+}
+.skills:hover {
+    transform: scale(1.1) !important;
+}
+
+#work {
+    background-color: white;
+    padding: 2rem;
+}
+.projects {
+    background-color: $background-color2;
+    //max-height: 250px;
+    max-width: 500px;
+}
+#contact {
+    background-color: black;
+    padding: 2rem;
+    color: white;
+}
+.contact-form {
+    border: 2px solid aqua;
+    max-width: fit-content;
+}
+footer {
+    background-color: azure;
+    padding: 2rem;
+}
