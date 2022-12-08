@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0;
+}
+
+#navbar {
+  background-color: aqua;
+  padding: 5px;
+}
+
+#logo {
+  margin-left: 15px;
+}
+
+#navbar > div > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#hero {
+  background-color: azure;
+  padding: 40px;
+}
+
+.about-me {
+  padding: 3rem;
+}
+
+#skills {
+  background-color: aqua;
+}
+
+.skills {
+  margin: 20px;
+  min-width: 300px;
+}
+
+#work {
+  background-color: azure;
+  padding: 2rem;
+}
+
+#contact {
+  background-color: white;
+  padding: 2rem;
+}
+
+footer {
+  background-color: azure;
+  padding: 2rem;
+}/*# sourceMappingURL=index.css.map */
