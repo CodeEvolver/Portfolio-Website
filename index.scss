@@ -29,18 +29,22 @@ body {
     padding: 3rem;
 }
 #skills {
-    background-color: aqua;
+    background-color: $background-color1;
 }
 .skills {
-    margin: 20px;
-    min-width: 300px;
+    background-color: $background-color2;
 }
 #work {
-    background-color: azure;
+    background-color: white;
     padding: 2rem;
 }
+.projects {
+    background-color: $background-color2;
+    //max-height: 250px;
+    max-width: 500px;
+}
 #contact {
-    background-color: white;
+    background-color: black;
     padding: 2rem;
 }
 footer {

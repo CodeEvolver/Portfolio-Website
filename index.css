@@ -32,21 +32,25 @@ body {
 }
 
 #skills {
-  background-color: aqua;
+  background-color: azure;
 }
 
 .skills {
-  margin: 20px;
-  min-width: 300px;
+  background-color: aqua;
 }
 
 #work {
-  background-color: azure;
+  background-color: white;
   padding: 2rem;
 }
 
+.projects {
+  background-color: aqua;
+  max-width: 500px;
+}
+
 #contact {
-  background-color: white;
+  background-color: black;
   padding: 2rem;
 }
 
