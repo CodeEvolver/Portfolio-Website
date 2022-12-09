@@ -37,7 +37,6 @@ body {
 
 .skills {
   background-color: aqua;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5) !important;
 }
 
 .skills:hover {
