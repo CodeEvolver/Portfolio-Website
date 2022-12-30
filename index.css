@@ -14,17 +14,45 @@ body {
 }
 
 #logo {
-  margin-left: 15px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: navy;
+  font-family: DFPOP1-W9;
 }
 
-#navbar > div > a {
+.nav-item {
   text-decoration: none;
-  color: #000000;
+  color: navy;
+}
+
+#toggle-button {
+  display: none;
+  font-weight: bold;
 }
 
 #hero {
   background-color: azure;
-  padding: 40px;
+  background-image: url(./james-harrison-vpOeXr5wmR4-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 5rem;
+}
+
+.hero-text {
+  font-size: clamp(30px, 5vw, 6vw);
+  color: azure;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.btn-text {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.btn-text:hover {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .about-me {
@@ -69,4 +97,32 @@ body {
 footer {
   background-color: azure;
   padding: 2rem;
+}
+
+.fab {
+  font-size: 30px;
+  margin: 10px;
+  color: navy;
+}
+
+.fa-bars {
+  font-size: 16px;
+}
+
+@media (max-width: 575px) {
+  #toggle-button {
+    display: contents;
+  }
+  #mobile-header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #menu {
+    display: none;
+  }
+  #toggle-button:hover #menu {
+    display: block;
+  }
 }/*# sourceMappingURL=index.css.map */
